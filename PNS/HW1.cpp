@@ -4,6 +4,8 @@
 #include <cmath>
 using namespace std;
 
+//A program to use the Runge-Kutta approximation to appromiate a number
+
 double f(double x, double t)
 {
   double f = -3.0*x*t*t;
